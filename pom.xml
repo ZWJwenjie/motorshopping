@@ -26,6 +26,8 @@
         <mysql-connector-java.varsion>8.0.15</mysql-connector-java.varsion>
         <aspectj.varsion>1.9.2</aspectj.varsion>
         <commons-fileupload.varsion>1.4</commons-fileupload.varsion>
+        <javax.servlet.varsion>4.0.1</javax.servlet.varsion>
+        <jstl.varsion>1.2</jstl.varsion>
     </properties>
 
     <dependencies>
@@ -106,6 +108,19 @@
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
             <version>${commons-fileupload.varsion}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${javax.servlet.varsion}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.varsion}</version>
         </dependency>
     </dependencies>
 
